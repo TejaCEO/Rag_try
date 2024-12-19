@@ -113,7 +113,7 @@ if uploaded_file:
         relevant_text = " ".join([result[0] for result in results])
         
         # Generate AI response based on the retrieved text and the query
-        MISTRAL_API_KEY = "lHFGShbf91kbUx1vrJ2rqLDIaJnAhYBy"  # Set your API key in environment variables
+        MISTRAL_API_KEY = ""  # Set your API key in environment variables
         MISTRAL_API_URL = "https://codestral.mistral.ai/v1/fim/completions"  # Replace with the actual Mistral endpoint
         
         # Generate response from Mistral API
